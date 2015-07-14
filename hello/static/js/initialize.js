@@ -1,10 +1,10 @@
 requirejs.config({
     prefix: "/static/js/",
     paths: {
-        'jquery': 'jquery-2.1.4',
-        'underscore': 'underscore',
-        'backbone': 'backbone',
-        'marionette': 'backbone.marionette'
+        'jquery': 'external/jquery-2.1.4',
+        'underscore': 'external/underscore',
+        'backbone': 'external/backbone',
+        'marionette': 'external/backbone.marionette'
     },
     shim: {
         'backbone': ['jquery', 'underscore'],

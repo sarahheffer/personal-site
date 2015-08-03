@@ -13,11 +13,6 @@ define([
             email: "#icon-email"
         },
         events: {
-            "click @ui.facebook": "openInNewTab",
-            "click @ui.facebook": "openInNewTab",
-            "click @ui.facebook": "openInNewTab",
-            "click @ui.facebook": "openInNewTab",
-            "click @ui.facebook": "openInNewTab",
             "mouseover @ui.facebook": "hover",
             "mouseover @ui.linkedin": "hover",
             "mouseover @ui.github": "hover",
@@ -28,12 +23,6 @@ define([
             "mouseout @ui.github": "noHover",
             "mouseout @ui.instagram": "noHover",
             "mouseout @ui.email": "noHover"
-        },
-        openInNewTab: function() {
-            var url = "www.facebook.com/Sarah.C.Heffer";
-            var win = window.open(url, '_blank');
-            //win.focus();
-            win.location;
         },
         hover: function(ev) {
             var target = $(ev.currentTarget);

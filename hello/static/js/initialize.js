@@ -1,4 +1,5 @@
 requirejs.config({
+    waitSeconds: 200,
     prefix: "/static/js/",
     paths: {
         'jquery': 'external/jquery-2.1.4',

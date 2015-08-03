@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Title</title>
+    <link rel="stylesheet" href="/static/css/app.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/sprites.css" type="text/css">
+<title>Sarah Heffer</title>
 </head>
 <body>
-  <div id="main"></div>
-<script type="text/html" id="hello">Hello <%- name %> !</script>
+  <div id="header-region"></div>
+  <div id="main-region"></div>
+  <div id="footer-region"></div>
+
+{% include 'header.html' %}
+{% include 'about_me.html' %}
+{% include 'footer.html' %}
 <script data-main="/static/js/initialize" src="/static/js/external/require.js"></script>
 </body>
 </html>

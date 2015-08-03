@@ -13,7 +13,9 @@ function(
     });
 
     App.addRegions({
-        main: '#main',
+        headerRegion: '#header-region',
+        mainRegion: '#main-region',
+        footerRegion: '#footer-region'
     });
 
     return App;

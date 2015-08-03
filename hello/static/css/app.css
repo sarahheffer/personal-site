@@ -1,0 +1,111 @@
+.nav, .table {
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.header-main-text {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-family: Georgia, serif;
+}
+
+.header-sub-info {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 33%;
+    color: grey;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", "Lucide Grande", sans-serif;
+}
+
+.header-nav-link-container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.nav-list {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-nav-divider {
+    text
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 44%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: LightGrey;
+    padding-top: 6px;
+}
+
+.header-nav-item {
+    text-align: center;
+    list-style-type: none;
+    font-size: 16px;
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: "Lucida Sans Unicode", "Lucide Grande", sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    width: 10%;
+}
+
+.nav-item-hover, .nav-item-select {
+    padding-bottom: 3px;
+    color: black;
+    border-bottom-color: MediumTurquoise;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+
+/** MAIN CONTENT **/
+
+.content {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#about-me-image {
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+}
+
+#about-me-text {
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/** FOOTER **/
+
+.footer {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    border-top-style: solid;
+    border-top-color: LightGrey;
+    border-top-width: 2px;
+}
+
+.social-icon-container {
+    padding: 0;
+    display: table;
+    margin: auto;
+}

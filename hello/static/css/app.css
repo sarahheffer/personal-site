@@ -46,7 +46,7 @@ a {
     list-style-type: none;
     display: inline-block;
     text-align: center;
-    width: 44%;
+    width: 38%;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: LightGrey;
@@ -79,21 +79,24 @@ a {
 /** MAIN CONTENT **/
 
 .content {
+    display: inline-block;
     padding-left: 50px;
     padding-right: 50px;
-    text-align: center;
 }
 
 #about-me-image {
+    float: left;
     width: 30%;
     height: 30%;
     display: inline-block;
+    padding-right: 15px;
 }
 
 #about-me-text {
-    margin: 0 10px;
-    display: inline-block;
+    margin: 0;
+    display: inline;
     vertical-align: top;
+    text-align: left;
 }
 
 /** FOOTER **/

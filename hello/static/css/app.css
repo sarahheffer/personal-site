@@ -92,11 +92,15 @@ a {
     padding-right: 15px;
 }
 
-#about-me-text {
-    margin: 0;
+#text-container {
     display: inline;
+}
+
+.about-me-text {
+    margin: 0;
     vertical-align: top;
     text-align: left;
+    font-family: "Lucida Sans Unicode", "Lucide Grande", sans-serif;
 }
 
 /** FOOTER **/
